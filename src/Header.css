@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #4169E1;
+    vertical-align: middle;
+    line-height: 40px;
+    padding: 22px 0px 0px 225px;
+}
+
+ul {
+    list-style:none;
+}
+
+.logo {
+    position: fixed;
+    top: 3px;
+    left: 0px;
+    color: white;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 40px;
+    padding: 22px 0px 0px 30px;
+    font-weight: 600;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.center-li1 {
+    position: fixed;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    vertical-align: middle;
+    top: 26px;
+}
+
+.center-li2 {
+    position: fixed;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    vertical-align: middle;
+    top: 26px;
+    margin-left: 150px;
+}
+
+.center-li3 {
+    position: fixed;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    vertical-align: middle;
+    top: 26px;
+    margin-left: 1000px;
+}
+
+.center-li4 {
+    position: fixed;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    vertical-align: middle;
+    top: 26px;
+    margin-left: 1100px;
+}
