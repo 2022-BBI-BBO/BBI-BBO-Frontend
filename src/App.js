@@ -1,5 +1,5 @@
 import './App.css';
-import Main from './components/Main';
+import Main from './page/Main';
 import Photo from './components/Photo';
 import Data from './components/Data';
 import Sign_in from './components/Sign_in';

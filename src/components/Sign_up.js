@@ -20,14 +20,12 @@ class Sign_up extends Component {
           </div>
           <br></br>
           <br></br>
-          <button className="login">회원가입</button>
+          <Link to="/Sign_in"><button className="login">회원가입</button></Link>
           <br></br>
           <br></br>
-          <button className="ask">
-            &nbsp;&nbsp;이미 계정이 있으세요?
-          </button>{" "}
+          <button className="ask">&nbsp;&nbsp;이미 계정이 있으세요?</button> &nbsp;
           &nbsp;
-          <Link to="/">
+          <Link to="/Sign_in">
             <button className="log">로그인</button>
           </Link>
         </form>

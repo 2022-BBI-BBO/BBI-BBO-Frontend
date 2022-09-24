@@ -11,7 +11,7 @@ class Data extends Component {
             <form>
               <img src="./img/chart.png" alt="chart" className="img"></img>
               <h3 className="time">&nbsp;시간대별 흡연 현황</h3>
-            </form>  
+            </form>
         </div>
     );
   }

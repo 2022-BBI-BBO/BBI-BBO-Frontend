@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.slide1 {
+    width: 100%;
+    transform: (-50%, -50%);
+    vertical-align: middle;
+}
+
+.slidescreen {
+    width: 100%;
+    top: 90px;
+    height: 615px;
+    display: flex;
+
+}
+
+.slidescreen>h1 {
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    line-height: 30px;
+}
+
+.process {
+    /* position: relative; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.process>h1 {
+    position: relative;
+    top: 800px;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    line-height: 30px;
+}
+
+.proc {
+    width: 100.5%;
+    bottom: 0px;
+}
+
+.intro {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
