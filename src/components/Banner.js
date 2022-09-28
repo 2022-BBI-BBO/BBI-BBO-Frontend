@@ -1,8 +1,8 @@
 import {Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay, EffectFade } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/effect-fade";
+import "swiper/scss";
+import "swiper/scss/pagination";
+import "swiper/scss/effect-fade";
 import {Link} from "react-router-dom";
 
 SwiperCore.use([Pagination, Autoplay, EffectFade])
