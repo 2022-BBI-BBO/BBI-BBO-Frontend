@@ -1,198 +1,108 @@
 .photo1 {
-    position: fixed;
-    top: 170px;
-    left: 200px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .photo2 {
-    position: fixed;
-    top: 170px;
-    left: 510px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .photo3 {
-    position: fixed;
-    top: 170px;
-    left: 810px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .photo4 {
-    position: fixed;
-    top: 170px;
-    left: 1110px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .photo5 {
-    position: fixed;
-    top: 400px;
-    left: 200px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .photo6 {
-    position: fixed;
-    top: 400px;
-    left: 510px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .photo7 {
-    position: fixed;
-    top: 400px;
-    left: 810px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .photo8 {
-    position: fixed;
-    top: 400px;
-    left: 1110px;
-    width: 200px;
-    height: 150px;
-    background-color: lightblue;
-  }
-  
-  .left{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    top: 620px;
-    left: 300px;
-    font-size: 40px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .right{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    top: 620px;
-    right: 325px;
-    font-size: 40px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num{
-    position: fixed;
-    transform: translate(64%, 90%);
-    top: 620px;
-    width: 670px;
-    height: 25px;
-    font-size: 16px;
-  }
-  
-  .num1{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num2{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num3{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num4{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num5{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num6{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num7{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num8{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num9{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
-  
-  .num10{
-    font-size: 16px;
-    background-color: white;
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-  }
+  position: fixed;
+  top: 170px;
+  left: 190px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+.photo2 {
+  position: fixed;
+  top: 170px;
+  left: 500px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+.photo3 {
+  position: fixed;
+  top: 170px;
+  left: 800px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+.photo4 {
+  position: fixed;
+  top: 170px;
+  left: 1100px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+.photo5 {
+  position: fixed;
+  top: 400px;
+  left: 190px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+.photo6 {
+  position: fixed;
+  top: 400px;
+  left: 500px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+.photo7 {
+  position: fixed;
+  top: 400px;
+  left: 800px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+.photo8 {
+  position: fixed;
+  top: 400px;
+  left: 1100px;
+  width: 250px;
+  height: 180px;
+  background-color: lightblue;
+}
+
+a {
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.page {
+  position: fixed;
+  padding-top: 630px;
+  padding-left: 31%;
+}
+
+.page .num:hover{
+  background-color: lightgray;
+  color:white;
+}
+
+.paging-div {
+  padding: 15px 0 5px 10px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+a.num {
+  color: black;
+}
+
+a.first {
+  color: black;
+}
+
+a.last {
+  color: black;
+}
