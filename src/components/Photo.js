@@ -1,15 +1,41 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import Header from "./Header";
+import Footer from "./Footer";
+import Pagination from 'react-js-pagination';
+import {useState} from 'react';
 import "../Photo.css";
-import FadeIn from "react-fade-in";
+import { Link } from "react-router-dom";
 
-class Photo extends Component {
-  render() {
+function Photo() {
+    const[page, setPage] = useState(1);
+
+    const handlePageChange = (page) => { setPage(page); };
+
     return (
       <div>
         <Header />
-        <form>
-          <div className="page">
+        <form className="photo">
+          <div className="image1"></div>
+          <div className="image2"></div>
+          <div className="image3"></div>
+          <div className="image4"></div>
+          <br></br>
+          <div className="image5"></div>
+          <div className="image6"></div>
+          <div className="image7"></div>
+          <div className="image8"></div>
+        </form>
+
+
+        <div className="page">
+          {/* <Pagination 
+            activePage={1}
+            itemsCountPerPage={8}
+            totalItemsCount={300}
+            pageRangeDisplayed={8}
+            onChange={handlePageChange}
+          ></Pagination> */}
+
             <ul className="pagenation">
               <a href="#" class="first">이전</a>&nbsp;&nbsp;
               <a href="#" class="num">1</a>&nbsp;
@@ -24,27 +50,10 @@ class Photo extends Component {
               <a href="#" class="last">다음</a>
             </ul>
 
-          </div>
-          <div className="photo1"></div>
-          <div className="photo2"></div>
-          <div className="photo3"></div>
-          <div className="photo4"></div>
-
-          <br></br>
-          <div className="photo5"></div>
-          <div className="photo6"></div>
-          <div className="photo7"></div>
-          <div className="photo8"></div>
-
-          <div class="paging-div">
-            <ul class="pagination" id="pagination"></ul>
-          </div>
-
-        </form>
-
+         </div> 
+        {/*<Footer /> */}
       </div>
     );
   }
-}
 
 export default Photo;

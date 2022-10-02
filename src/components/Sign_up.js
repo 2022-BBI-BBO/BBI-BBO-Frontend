@@ -10,24 +10,39 @@ class Sign_up extends Component {
           <section className="header">BBIBBO</section>
           <div className="entry">
             <br></br>
-            <input type="text" placeholder="  아이디"></input>
+            <input
+              className="upInput"
+              type="text"
+              placeholder="  아이디"
+            ></input>
             <br></br>
-            <input type="text" placeholder="  비밀번호"></input>
+            <input
+              className="upInput"
+              type="password"
+              placeholder="  비밀번호"
+            ></input>
             <br></br>
-            <input type="text" placeholder="  비밀번호 확인"></input>
+            <input
+              className="upInput"
+              type="password"
+              placeholder="  비밀번호 확인"
+            ></input>
             <br></br>
-            <input type="text" placeholder="  이름"></input>
+            <input className="upInput" type="text" placeholder="  이름"></input>
           </div>
           <br></br>
           <br></br>
-          <Link to="/Sign_in"><button className="login">회원가입</button></Link>
-          <br></br>
-          <br></br>
-          <button className="ask">&nbsp;&nbsp;이미 계정이 있으세요?</button> &nbsp;
-          &nbsp;
           <Link to="/Sign_in">
-            <button className="log">로그인</button>
+            <button className="login">회원가입</button>
           </Link>
+          <br></br>
+          <br></br>
+          <div className="text">
+            <span className="ask">&nbsp;&nbsp;이미 계정이 있으세요?</span>{" "}
+            <Link to="/Sign_in">
+              <span className="log">로그인</span>
+            </Link>
+          </div>
         </form>
       </div>
     );

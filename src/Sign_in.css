@@ -16,7 +16,7 @@ header {
     justify-content : center;
   }
   
-  input[type=text] {
+  .inInput {
     margin-top: 40px;
      width: 430px;
      height: 68px;
@@ -28,7 +28,7 @@ header {
   
   .back{
     width: 200px;
-     height: 50px;
+    height: 50px;
     border-radius: 10px;
     font-size: 18px;
     background-color: white;
@@ -41,7 +41,7 @@ header {
   
   .new{
     width: 200px;
-     height: 50px;
+    height: 50px;
     border-radius: 10px;
     font-size: 18px;
     background-color: white;
@@ -63,4 +63,9 @@ header {
     border: none;
     color: white;
     cursor: pointer;
+  }
+  form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
   }

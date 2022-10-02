@@ -11,9 +11,9 @@ class Sign_in extends Component {
         <div className="entry">
           <br></br>
           <br></br>
-          <input type="text" placeholder="  아이디"></input>
+          <input className="inInput" type="text" placeholder="  아이디"></input>
           <br></br>
-          <input type="text" placeholder="  비밀번호"></input>
+          <input className="inInput" type="password" placeholder="  비밀번호"></input>
         </div>
         <br></br>
         <br></br>
@@ -23,12 +23,14 @@ class Sign_in extends Component {
         </Link>
         <br></br>
         <br></br>
-        <Link to="/">
-          <button className="back">돌아가기</button> &nbsp;
-        </Link>
-        <Link to="/Sign_up">
-          <button className="new">회원가입</button>
-        </Link>
+        <div className="tex">
+          <Link to="/">
+            <button className="back">돌아가기</button> &nbsp;
+          </Link>
+          <Link to="/Sign_up">
+            <button className="new">회원가입</button>
+          </Link>
+        </div>
       </form>
     );
   }

@@ -1,13 +1,13 @@
 .img{
     position: fixed;
     height: 30px;
-    width: 28px;
-    left: 80px;
-    top:130px;
+    width: 26px;
+    left: 77px;
+    top:120px;
   } 
   
   .time{
     position: fixed;
     left: 110px;
-    top:116px;
+    top:125px;
   }
