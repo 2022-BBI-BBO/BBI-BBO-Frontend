@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Sign_up.css";
-
+import React from 'react';
 class Sign_up extends Component {
   render() {
     return (

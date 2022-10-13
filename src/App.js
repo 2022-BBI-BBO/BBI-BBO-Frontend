@@ -5,6 +5,7 @@ import Data from './components/Data';
 import Sign_in from './components/Sign_in';
 import Sign_up from './components/Sign_up';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react';
 
 function App() {
   return (

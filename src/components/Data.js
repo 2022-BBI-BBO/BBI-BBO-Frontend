@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Chart from 'chart.js/auto';
 import { Line } from 'react-chartjs-2';
 import { SassColor } from "sass";
+import React from 'react';
 
 
 class Data extends Component {

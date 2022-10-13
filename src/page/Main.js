@@ -1,21 +1,25 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Banner from "../components/Banner";
-import BannerData from "./banner.json";
-import { Component, useState } from "react";
+import BannerData from "./banner";
+import { Component } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../Main.css";
 import FadeIn from "react-fade-in";
+import React from "react";
 
 class Main extends Component {
+  
   render() {
+    console.log(BannerData);
     return (
       <div>
         <div className="header">
           <Header />
         </div>
         <div className="slidescreen">
-          <div className="slidescreen-banner"><Banner banner={BannerData.banners} /></div>
+        <Banner banner={BannerData} />
+          <div className="slidescreen-banner"></div>
           <h1>
             <FadeIn>
               스마트 흡연 알리미
