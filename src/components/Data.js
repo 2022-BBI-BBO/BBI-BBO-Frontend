@@ -11,22 +11,21 @@ import React from 'react';
 
 class Data extends Component {
   render() {
-
     let data =  {
-      labels: ['7-8', '8-9', '9-10', '10-11', '11-12', '17-18', '18-19', '19-20' ],
+      labels: ['00:00시 ~ 03:00시', '03:00시 ~ 06:00시', '06:00시 ~ 09:00시', '09:00시 ~ 12:00시', '12:00시 ~ 15:00시', '15:00시 ~ 18:00시', '18:00시 ~ 21:00시', '21:00시 ~ 24:00시' ],
       datasets: [
         {
           type: 'bar',
-          label: '탑승인원',
+          label: '지난 달',
           backgroundColor: 'rgba(255, 99, 132, 0.5)',
-          data: [1, 2, 3, 4, 5, 6, 7, 8],
+          data: [1, 6, 5, 1, 2, 3, 7, 4],
           borderWidth: 2,
         },
         {
           type: 'bar',
-          label: '하차인원',
+          label: '이번 달',
           backgroundColor: 'rgba(53, 162, 235, 0.5)',
-          data: [8, 7, 6, 5, 4, 3, 2, 1],
+          data: [3, 2, 6, 5, 7, 1, 4, 8],
         },
       ],
     };
@@ -37,7 +36,7 @@ class Data extends Component {
             <form>
               <img src="./img/chart.png" alt="chart" className="img"></img>
               <h3 className="time">&nbsp;시간대별 흡연 현황</h3>
-              <Line type="line" data={data} style={{width: '100px', height:'50px'}}/>
+              <div className="chart"><Line type="line" data={data}/></div>
             </form>
             {/* <Footer /> */}
         </div>
